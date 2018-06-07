@@ -1,0 +1,94 @@
+
+
+.navbar a {
+  text-decoration: none;
+  color: #D9F0F2;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #b89e41;
+}
+
+span {
+  font-style: italic;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-area: header;
+  max-width: 1500px;
+  grid-column: 1 / -1;
+  border: 2px inset black;
+  background-color: #c62632;
+}
+
+.banner {
+  grid-area: banner;
+  text-align: left;
+  color: #fff;
+  font-family: Serif, Arial;
+  background-color: #be9f44;
+  height: 145px;
+}
+
+.banner-fn {
+  grid-area: banner;
+  text-align: left;
+  color: #fff;
+  font-family: Serif, Arial;
+  z-index: 1;
+}
+
+.banner-fn p {
+  font-size: 25px;
+  margin: 25px 0 0 0;
+}
+
+.banner h5 {
+  font-size: 60px;
+  margin: 40px 0 0 0;;
+  padding: 0;
+}
+
+#vote-saying {
+  font-size: 20px;
+  margin: 0;
+  letter-spacing: 3px;
+  border-top: 4px double #fff;
+  width: 380px;
+}
+
+.fb-icon {
+  grid-area: banner;
+  grid-column: 3 / 4;
+  text-align: right;
+  margin: 3px 5px 0 0;
+  padding: 0;
+  z-index: 2;
+}
+
+.home,
+.aboutMe,
+.involved {
+  border-right: 2px solid black;
+}
+
+.home:hover,
+.aboutMe:hover,
+.involved:hover,
+.donate:hover {
+  background-color: #444;
+}
+
+
+.aboutMe {
+
+
+}
+
+.involved {
+
+
+}
