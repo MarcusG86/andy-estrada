@@ -10,7 +10,7 @@
   color: #b89e41;
 }
 
-span {
+.italic {
   font-style: italic;
 }
 
@@ -62,7 +62,7 @@ span {
 
 .fb-icon {
   grid-area: banner;
-  grid-column: 3 / 4;
+  grid-column: 4 / 5;
   text-align: right;
   margin: 3px 5px 0 0;
   padding: 0;
@@ -70,20 +70,20 @@ span {
 }
 
 .home,
-.aboutMe,
+.platform,
 .involved {
   border-right: 2px solid black;
 }
 
 .home:hover,
-.aboutMe:hover,
+.platform:hover,
 .involved:hover,
 .donate:hover {
   background-color: #444;
 }
 
 
-.aboutMe {
+.platform {
 
 
 }
