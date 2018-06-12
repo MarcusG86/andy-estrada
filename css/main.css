@@ -108,7 +108,7 @@ p {
   grid-column: 2 / 4;
 }
 
-.contributions p{
+.contributions p {
   font-family: Courier New;
 }
 
@@ -116,6 +116,84 @@ p {
   display: grid;
 }
 
+/****Get-Involved PAGE CSS****/
+.get-involved {
+  grid-area: content;
+  background-color: blue;
+  /* width: 980px; */
+}
+
+.top-border {
+  border-top: 3px solid black;
+}
+
+.bottom-border {
+  border-bottom: 3px solid black;
+}
+
+.gi-hero h1 {
+  text-align: center;
+  letter-spacing: 3px;
+  margin: 15px;
+  padding: 20px;
+  background-color: black;
+  grid-column: 2 / 4;
+}
+
+/****PLATFORM PAGE CSS****/
+.platform-section {
+  grid-area: content;
+  background-color: #edc44e;
+  display: grid;
+  grid-template-columns: 1fr 980px 1fr;
+  grid-template-rows: minmax(50px, auto);
+  margin: auto;
+}
+
+.platform-hero {
+  grid-area: hero;
+  padding-top: 15px
+}
+
+.borders {
+  grid-column: 2;
+}
+
+.platform-section h2 {
+  color: #611218;
+  font-size: 1.8em;
+}
+
+.platform-section h1 {
+  margin: 8px 0 8px 0;
+  padding: 10px;
+  background-color: #611218;
+  color: #0d0302;
+}
+
+.cgcg,
+.transportation,
+.new-ideas,
+.other-issues {
+  text-align: left;
+  grid-column: 2;
+}
+
+.cgcg,
+.transportation,
+.new-ideas,
+.other-issues,
+.section-border {
+  margin: 0 100px 0 100px;
+}
+
+.section-border {
+  border-bottom: 3px solid black;
+  grid-column: 2;
+  margin-top: 20px;
+}
+
+/****FOOTER****/
 .footer {
   grid-area: footer;
   grid-column: 1 / -1;

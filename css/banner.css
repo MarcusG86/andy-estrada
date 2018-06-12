@@ -31,7 +31,26 @@
   font-family: Serif, Arial;
   background-color: #be9f44;
   height: 145px;
+  /* background-image: url("../images/cg_cityhall_resize.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%; */
 }
+
+/* .banner-image {
+  background-image: url("../images/cg_cityhall.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-area: banner;
+  grid-column: 1 / -1;
+  z-index: 0;
+} */
+
+/* .banner-image img {
+  width: 100%;
+  height: 150px;
+  opacity: 0.7;
+} */
 
 .banner-fn {
   grid-area: banner;
