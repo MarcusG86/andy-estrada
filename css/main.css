@@ -119,26 +119,130 @@ p {
 /****Get-Involved PAGE CSS****/
 .get-involved {
   grid-area: content;
-  background-color: blue;
-  /* width: 980px; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
 }
 
-.top-border {
-  border-top: 3px solid black;
+.get-involved-hero {
+  grid-area: hero;
+  margin: 20px auto 0 auto;
+  font-family: Gerogia;
+  /* margin: 15px;
+  padding: 20px; */
+  width: 1000px;
+  height: 480px;
+  background-color: #edc44e;
 }
 
+.get-involved-hero h1 {
+  text-align: center;
+  font-size: 37px;
+  margin: 8px 0 8px 0;
+  padding: 10px;
+  background-color: #611218;
+  color: #be9f44;
+  /* color: #0d0302; */
+}
+
+.get-involved-hero,
+.borders {
+  margin-top: 15px;
+}
+
+.get-involved-hero h3 {
+  font-size: 2.1em;
+  margin-bottom: 0;
+  font-weight: normal;
+  font-weight: 500;
+}
+
+.get-involved-hero h2 {
+  font-size: 2.9em;
+  margin: 0;
+  color: black;
+  font-weight: normal;
+}
+
+.get-involved-hero p {
+  font-size: 1.5em;
+  margin: 0 70px 0 70px;
+  font-weight: normal;
+}
+
+.get-involved-hero p:nth-of-type(1) {
+  margin-top: 15px;
+}
+
+.get-involved-hero span {
+  color: #c62632;
+}
+
+.volunteer,
+.make-donation {
+  background-color: #edc44e;
+  width: 400px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.volunteer p,
+.make-donation p,
+.card-top-border,
+.card-bottom-border {
+    margin: 10px 25px 10px 25px;
+}
+
+.volunteer {
+  grid-column: 2;
+}
+
+.make-donation {
+  grid-column: 3;
+}
+
+.donate-btn {
+
+}
+
+.make-donation a {
+  display: inline-block;
+  color: #D9F0F2;
+  font-weight: bold;
+  margin-left: 130px;
+  text-decoration: none;
+}
+
+.donate-btn {
+  background-color: #c62632;
+  border-radius: 4px;
+  color: #fff;
+  padding: 15px 25px 15px 25px;
+  text-shadow: 1px 1px 5px #666;
+}
+
+
+
+.make-donation a:hover {
+  color: #b89e41;
+}
+
+.card-top-border,
+.card-bottom-border {
+  border-bottom: 3px solid black;
+  margin-top: 15px;
+}
+
+.card-bottom-border {
+  margin-bottom: 15px;
+}
+
+.top-border,
 .bottom-border {
   border-bottom: 3px solid black;
 }
 
-.gi-hero h1 {
-  text-align: center;
-  letter-spacing: 3px;
-  margin: 15px;
-  padding: 20px;
-  background-color: black;
-  grid-column: 2 / 4;
-}
 
 /****PLATFORM PAGE CSS****/
 .platform-section {
